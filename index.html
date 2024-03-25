@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+      <p>PASTE YOUTUBE VIDEO LINK:</p>
+    <input type="text" name="url">
+  
+    <p>FROM:</p>
+    <div id="startingtimesection">
+    <label for="starthours">HH:</label>
+    <input type="number" name="starthours">
+    <label for="startminutes">MM:</label>
+    <input type="number" name="startminutes">
+    <label for="startseconds">SS:</label>
+    <input type="number" name="startseconds">
+    </div>
+    
+    <p>TO:</p>
+    <div id="endingtimesection">
+    <label for="endhours">HH:</label>
+    <input type="number" name="endhours">
+    <label for="endminutes">MM:</label>
+    <input type="number" name="endminutes">
+    <label for="endseconds">SS:</label>
+    <input type="number" name="endseconds">
+    </div>
+    <button type="submit" name="submitbutton">GENERATE</button>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>
