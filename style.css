@@ -1,14 +1,17 @@
 body {
     font-size: 15pt;
+    background-color: #FCF6F5;
 }
 
 form{
   display: flex;
   flex-direction: column;
+  width: 80%;
+  margin:auto;
 }
 
 button{
-  background-color: orangered;
+  background-color: #990011;
   color: whitesmoke;
   margin-top: 1rem;
   font-size: 1.2rem;
@@ -21,6 +24,7 @@ input{
 }
 
 label{
+  font-size: 0.6em;
   padding:0;
   margin: 0;
   vertical-align: middle;
@@ -28,4 +32,29 @@ label{
 
 input[type="number"]{
   width: 2em;
+}
+
+form>input{
+  font-size: 1.2em;
+}
+
+.timeinputswrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1em;
+}
+
+.unitinputwrapper{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.unitinputwrapper > input{
+  font-size: 1.5em;
+  width: 50%;
+}
+
+p{
+  margin-bottom: 1em;
 }

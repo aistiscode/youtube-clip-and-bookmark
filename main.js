@@ -40,3 +40,13 @@ const convertToSeconds = (hours, minutes, seconds)=>{
     e.preventDefault();
     processUrl();
   });
+
+const getClipboardItems = async ()=>{
+
+const clipboardItems = await navigator.clipboard.readText();
+
+alert(clipboardItems);
+}
+
+getClipboardItems();
+

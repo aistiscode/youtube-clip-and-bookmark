@@ -12,23 +12,37 @@
     <input type="text" name="url">
   
     <p>FROM:</p>
-    <div id="startingtimesection">
-    <label for="starthours">HH:</label>
+    <div class="timeinputswrapper">
+      <div class="unitinputwrapper">
+    <label for="starthours">HOURS</label>
     <input type="number" name="starthours">
-    <label for="startminutes">MM:</label>
+      </div>
+      <div class="unitinputwrapper">
+        
+    <label for="startminutes">MINUTES</label>
     <input type="number" name="startminutes">
-    <label for="startseconds">SS:</label>
+    </div>
+    <div class="unitinputwrapper">
+    <label for="startseconds">SECONDS</label>
     <input type="number" name="startseconds">
+    </div>
     </div>
     
     <p>TO:</p>
-    <div id="endingtimesection">
-    <label for="endhours">HH:</label>
+    <div class="timeinputswrapper">
+      <div class="unitinputwrapper">
+        
+    <label for="endhours">HOURS</label>
     <input type="number" name="endhours">
-    <label for="endminutes">MM:</label>
+    </div>
+    <div class="unitinputwrapper">
+    <label for="endminutes">MINUTES</label>
     <input type="number" name="endminutes">
-    <label for="endseconds">SS:</label>
+    </div>
+    <div class="unitinputwrapper">
+    <label for="endseconds">SECONDS</label>
     <input type="number" name="endseconds">
+    </div>
     </div>
     <button type="submit" name="submitbutton">GENERATE</button>
     </form>
