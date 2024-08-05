@@ -8,44 +8,45 @@
 </head>
 <body>
     <form action="">
-      <p>PASTE YOUTUBE VIDEO LINK:</p>
-    <input type="text" name="url">
-  
-    <p>FROM:</p>
-    <div class="timeinputswrapper">
-      <div class="unitinputwrapper">
-    <label for="starthours">HOURS</label>
-    <input type="number" name="starthours">
-      </div>
-      <div class="unitinputwrapper">
         
-    <label for="startminutes">MINUTES</label>
-    <input type="number" name="startminutes">
-    </div>
-    <div class="unitinputwrapper">
-    <label for="startseconds">SECONDS</label>
-    <input type="number" name="startseconds">
-    </div>
-    </div>
-    
-    <p>TO:</p>
-    <div class="timeinputswrapper">
-      <div class="unitinputwrapper">
-        
-    <label for="endhours">HOURS</label>
-    <input type="number" name="endhours">
-    </div>
-    <div class="unitinputwrapper">
-    <label for="endminutes">MINUTES</label>
-    <input type="number" name="endminutes">
-    </div>
-    <div class="unitinputwrapper">
-    <label for="endseconds">SECONDS</label>
-    <input type="number" name="endseconds">
-    </div>
-    </div>
-    <button type="submit" name="submitbutton">GENERATE</button>
+        <input type="text" name="url" value="Paste YouTube URL here">
+
+        <div> <!-- just creates stylized spacing. Should do this in CSS-->
+        <p>FROM:</p>
+        <div class="timeinputswrapper">
+            <div class="unitinputwrapper">
+                <label for="starthours">HOURS</label>
+                <input type="number" name="starthours">
+            </div>
+            <div class="unitinputwrapper">
+                <label for="startminutes">MINUTES</label>
+                <input type="number" name="startminutes">
+            </div>
+            <div class="unitinputwrapper">
+                <label for="startseconds">SECONDS</label>
+                <input type="number" name="startseconds">
+            </div>
+        </div>
+
+        <p>TO:</p>
+        <div class="timeinputswrapper">
+            <div class="unitinputwrapper">
+                <label for="endhours">HOURS</label>
+                <input type="number" name="endhours">
+            </div>
+            <div class="unitinputwrapper">
+                <label for="endminutes">MINUTES</label>
+                <input type="number" name="endminutes">
+            </div>
+            <div class="unitinputwrapper">
+                <label for="endseconds">SECONDS</label>
+                <input type="number" name="endseconds">
+            </div>
+        </div>
+
+        <button type="submit" name="submitbutton">GENERATE</button>
+        </div>
     </form>
     <script src="main.js"></script>
-  </body>
+</body>
 </html>

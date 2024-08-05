@@ -1,11 +1,13 @@
 body {
     font-size: 15pt;
     background-color: #FCF6F5;
+    min-width: 320px;
 }
 
 form{
   display: flex;
   flex-direction: column;
+  align-items: baseline;
   width: 80%;
   margin:auto;
 }
@@ -14,8 +16,9 @@ button{
   background-color: #990011;
   color: whitesmoke;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   font-size: 1.2rem;
-  
+
 }
 
 input{
@@ -27,17 +30,21 @@ label{
   font-size: 0.6em;
   padding:0;
   margin: 0;
-  vertical-align: middle;
 }
 
 input[type="number"]{
-  width: 2em;
+  width: 1.5em;
+}
+
+input[type="text"]{
+  color: lightgrey;
+  font-weight: bold;
 }
 
 form>input{
   font-size: 1.2em;
 }
-
+ 
 .timeinputswrapper{
   display: flex;
   flex-direction: row;
@@ -57,4 +64,16 @@ form>input{
 
 p{
   margin-bottom: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  
+  
+  input[type="number"]{
+    width: 1.5em;
+    
+  }
 }
